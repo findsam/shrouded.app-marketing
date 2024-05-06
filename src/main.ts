@@ -3,7 +3,7 @@ import { setupCounter } from "./counter.ts";
 import { renderCards } from "./components/cards.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <div class="w-full flex gap-6 flex-col p-4 max-w-lg mx-auto min-h-5">
+  <div class="w-full flex gap-6 flex-col p-4 max-w-lg mx-auto min-h-5 items-center justify-center">
     <h1 class="text-left text-4xl leading-tight tracking-tight text-primary font-frank">
         A strong password is not enough anymore. Cover yourself with 
         <span class="font-bold bg-clip-text text-transparent fill-transparent bg-[size:100%_200%] bg-[position:0_0] animate-[bg-move_1s_linear_infinite] 
@@ -17,7 +17,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       </p>
 
        <form class="w-full mr-auto max-w-[430px]">
-          <div class="flex border-grey-300 border bg-grey-100 w-full rounded-md">
+          <div class="flex border-grey-400 border bg-grey-100 w-full rounded-md">
             <input
               placeholder="Your email..."
               class="outline-none bg-grey-100 py-2 px-2 rounded-l-md w-full
