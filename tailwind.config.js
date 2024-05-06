@@ -16,6 +16,20 @@ export default {
         secondary: "#778085",
         tertiary: "#c6cacc",
       },
+      keyframes: {
+        "bg-move": {
+          "0%, 100%": {
+            "background-position": "0 0",
+          },
+          "50%": {
+            "background-position": "0 50%",
+          },
+        },
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        frank: ["Libre Baskerville", "serif"],
+      },
     },
   },
   plugins: [],
