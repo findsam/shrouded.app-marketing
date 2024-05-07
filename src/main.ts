@@ -3,6 +3,7 @@ import { renderCards } from "./components/cards.ts";
 import renderCheckmark from "./components/checkmark.ts";
 import emailIcon from "./components/email.ts";
 import form from "./components/form.ts";
+import footer from "./components/footer.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 <span class="bg-[#f2e2df] z-[100000] leading-normal tracking-tight flex items-start justify-start absolute top-0 w-full text-[#bd6455] text-sm px-4 py-1.5">
@@ -137,6 +138,10 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 Privacy is a fundamental human right, we've introduced a free plan to ensure that everyone can benefit from Shrouded.</p>
 
   </div>
-  ${renderCards()}`;
+  ${renderCards()}
+   <div class="w-full flex gap-6 flex-col p-4 max-w-[460px] mx-auto min-h-5 items-center justify-center mt-0">
+   ${footer()}
+   </div>
+  `;
 
 form();

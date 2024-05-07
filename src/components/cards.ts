@@ -3,7 +3,7 @@ import { card } from "./card";
 //<a href="https://dashboard.shrouded.app/pricing?ref=landing&type=premium"
 //<a href="https://dashboard.shrouded.app/pricing?ref=landing&type=unlimited"
 export function renderCards() {
-  return `<div id="cards" class="relative w-full gap-6 items-center justify-center p-4 md:max-w-4xl max-w-[460px] grid md:grid-cols-3 grid-cols-1 mx-auto min-h-5 md:mt-12 mb-28">
+  return `<div id="cards" class="relative w-full gap-6 items-center justify-center p-4 md:max-w-4xl max-w-[460px] grid md:grid-cols-3 grid-cols-1 mx-auto min-h-5 md:mt-12 mb:6 md:mb-12">
     <a href="#" class="md:-rotate-[8deg] md:translate-y-6 md:z-0 md:relative md:translate-x-8">${card(
       "Free",
       0,
