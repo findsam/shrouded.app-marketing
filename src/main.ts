@@ -32,13 +32,13 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         </form>
   </div>
 
-    <div class="p-4 max-w-[460px] mx-auto flex items-center justify-center flex-col  border-grey-400 mt-6 ">
+    <div class="p-4 max-w-[460px] mx-auto flex items-center justify-center flex-col  border-grey-400 mt-0">
         <h1 class="text-left w-full text-xl font-light  leading-tight tracking-tight text-primary font-frank border-t border-border pt-6">
          How does Shrouded.app work?
         </h1>
 
       <p class="text-sm font-normal text-secondary leading-normal tracking-tight text-left mx-auto pb-6 border-b">
-        We've built a 3 step formula to protect your online identity. Forget having to 
+        We've built a three step formula to protect your online identity. Forget having to 
         remember emails for each service you use. </p>
         
         <div class="grid w-full mt-6">
@@ -92,7 +92,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           </div>
         </div>
 
-        <div class="grid w-full mt-6">
+        <div class="grid w-full mt-6 border-b pb-8 border-border pt-6">
           <div class="flex flex-row gap-4 w-full">
            <span class="bg-[#e0eee7] min-h-10 max-h-10 max-w-10 min-w-10  justify-center items-center flex text-center px-2 mr py-1.5 font-frank text-2xl leading-tight tracking-tight mr-auto rounded-md whitespace-nowrap font-normal text-[#3f755a]">
               3
@@ -104,9 +104,8 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           </div>
           <div class="flex flex-col gap-2 border-grey-400 border bg-grey-100 w-full rounded-md mt-4 p-4">
                 <p class="text-sm font-normal text-secondary leading-normal tracking-tight text-left mx-auto">
-        
-Any email forwarded through your aliases will be directly sent to your inbox. We do not retain any details of your emails under any circumstances.
-          <a href="https://notion.so" class="bg-[#e0eee7] hover:cursor-pointer mr-auto rounded-md border-grey-100  whitespace-nowrap text-xs font-normal text-[#3f755a]  px-1.5 py-0.5 leading-normal tracking-tight">
+        Any email forwarded through your aliases will be directly sent to your inbox. We do not retain any details of your emails under any circumstances.
+          <a href="https://notion.so" class="bg-grey-400 hover:cursor-pointer mr-auto rounded-md border-grey-100  whitespace-nowrap text-xs font-normal text-secondary  px-1.5 py-0.5 leading-normal tracking-tight">
               Read our privacy memo!
             </a>
           </p>
@@ -114,8 +113,8 @@ Any email forwarded through your aliases will be directly sent to your inbox. We
         </div>
       </div>
 
-  <div class="w-full flex flex-col p-4 max-w-[460px] mx-auto min-h-5 items-center justify-center mt-6">
-      <h1 class="text-left w-full text-xl font-light  leading-tight tracking-tight text-primary font-frank border-t border-border pt-6">
+  <div class="w-full flex flex-col p-4 max-w-[460px] mx-auto min-h-5 items-center justify-center">
+      <h1 class="text-left w-full text-xl font-light  leading-tight tracking-tight text-primary font-frank">
     Flexible pricing as your online presence scales.
       </h1>
       
