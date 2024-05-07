@@ -15,7 +15,7 @@ export function card(
   let borderStyles =
     style === "primary" ? "border-[#e0eee7]" : "border-grey-400";
 
-  return `<div class="p-2 shadow-lg bg-grey-100 rounded-md md:w-[280px] h-max md:h-[390px] md:hover:scale-105 duration-100 hover:cursor-pointer ease-linear">
+  return `<div class="p-2 shadow-lg bg-grey-100 rounded-md md:w-[280px] h-max md:h-[390px] duration-100 hover:cursor-pointer ease-linear">
       <div class="${borderStyles} border bg-grey-100 h-full rounded-md relative py-4 px-3 flex items-start  md:items-center flex-col gap-1.5">
           <span class="text-xs absolute font-normal px-1.5 rounded-md -top-2.5 py-0.5 md:mx-auto leading-normal tracking-tight ${labelStyles}">
            ${label}
