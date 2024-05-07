@@ -5,12 +5,12 @@ import emailIcon from "./components/email.ts";
 import form from "./components/form.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-<span class="bg-[#f2e2df] z-100 leading-normal tracking-tight flex items-start justify-start absolute top-0 w-full text-[#bd6455] text-sm px-4 py-1.5">
+<span class="bg-[#f2e2df] z-[100000] leading-normal tracking-tight flex items-start justify-start absolute top-0 w-full text-[#bd6455] text-sm px-4 py-1.5">
     <p class="max-w-[460px] w-full mx-auto">
     Early-access account creation is currently disabled at this moment.
     </p>
 </span>
-<span class="opacity-80 pt-[40px] fixed top-0 w-full h-2/6 -z-10 pb-[70px] bg-contain [background-position-x:center] [background-position-y:top] bg-no-repeat bg-[image:radial-gradient(130%_100%_at_50%_0%,_#e0eee7_0%,_#fcf4e3_60%,_#f9f9f9_100%)]"></span>
+<span class="opacity-80 pt-[40px] fixed top-0 w-full h-[20dvh] -z-10 pb-[70px] bg-contain [background-position-x:center] [background-position-y:top] bg-no-repeat bg-[image:radial-gradient(130%_100%_at_50%_0%,_#e0eee7_0%,_#fcf4e3_60%,_#f9f9f9_100%)]"></span>
   <div class="w-full flex gap-6 flex-col p-4 max-w-[460px] mx-auto min-h-5 items-center justify-center mt-20">
     <h1 class="text-left text-4xl leading-tight tracking-tight text-primary font-frank">
         A strong password is not enough anymore. Cover yourself with 
@@ -106,7 +106,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           </div>
         </div>
 
-        <div class="grid w-full mt-6 border-b pb-8 border-border pt-6">
+        <div class="grid w-full mt-6 border-b pb-8 border-border ">
           <div class="flex flex-row gap-4 w-full">
            <span class="bg-[#e0eee7] min-h-10 max-h-10 max-w-10 min-w-10  justify-center items-center flex text-center px-2 mr py-1.5 font-frank text-2xl leading-tight tracking-tight mr-auto rounded-md whitespace-nowrap font-normal text-[#3f755a]">
               3

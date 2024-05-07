@@ -16,7 +16,7 @@ export function renderCards() {
         "Email support",
       ]
     )}</a>
-     <a href="#"  class="md:-rotate-[1deg] md:-translate-y-12 md:z-1 md:relative">${card(
+     <a href="#" class="md:-rotate-[1deg] md:-translate-y-12 md:z-1 md:relative">${card(
        "Great value",
        3.99,
        "Billed monthly great for individuals who use multiple online services.",
