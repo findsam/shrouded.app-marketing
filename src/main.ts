@@ -4,6 +4,8 @@ import renderCheckmark from "./components/checkmark.ts";
 import emailIcon from "./components/email.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+
+<span class="opacity-80 pt-[40px] fixed top-0 w-full h-2/6 -z-10 pb-[70px] bg-contain [background-position-x:center] [background-position-y:top] bg-no-repeat bg-[image:radial-gradient(130%_100%_at_50%_0%,_#e0eee7_0%,_#fcf4e3_60%,_#f9f9f9_100%)]"></span>
   <div class="w-full flex gap-6 flex-col p-4 max-w-[460px] mx-auto min-h-5 items-center justify-center mt-20">
     <h1 class="text-left text-4xl leading-tight tracking-tight text-primary font-frank">
         A strong password is not enough anymore. Cover yourself with 
