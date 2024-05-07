@@ -2,9 +2,14 @@ import "./style.css";
 import { renderCards } from "./components/cards.ts";
 import renderCheckmark from "./components/checkmark.ts";
 import emailIcon from "./components/email.ts";
+import form from "./components/form.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-
+<span class="bg-[#f2e2df] leading-normal tracking-tight flex items-start justify-start absolute top-0 w-full text-[#bd6455] text-sm px-4 py-1.5">
+    <p class="max-w-[460px] w-full mx-auto">
+    Early-access account creation is currently disabled at this moment.
+    </p>
+</span>
 <span class="opacity-80 pt-[40px] fixed top-0 w-full h-2/6 -z-10 pb-[70px] bg-contain [background-position-x:center] [background-position-y:top] bg-no-repeat bg-[image:radial-gradient(130%_100%_at_50%_0%,_#e0eee7_0%,_#fcf4e3_60%,_#f9f9f9_100%)]"></span>
   <div class="w-full flex gap-6 flex-col p-4 max-w-[460px] mx-auto min-h-5 items-center justify-center mt-20">
     <h1 class="text-left text-4xl leading-tight tracking-tight text-primary font-frank">
@@ -15,23 +20,28 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
       <p class="text-sm font-normal text-secondary leading-normal tracking-tight text-left mx-auto">
       Generate aliases for your personal email for every service you use. These aliases are forwarded straight to your inbox safeguarding your email from breaches, spam, and phishing.
       </p>
-       <form class="w-full mr-auto max-w-[460px]">
-          <div class="flex border-grey-400 border bg-grey-100 w-full rounded-md">
-          <span class="my-auto ml-2">
-          ${emailIcon()}
-          </span>
-          <input
-              placeholder="Your email..."
-              class="outline-none bg-grey-100 py-2 px-2 rounded-l-md w-full
-              text-sm font-normal text-secondary leading-normal tracking-tight
-              placeholder:text-sm placeholder:font-normal placeholder:text-secondary placeholder:leading-normal placeholder:tracking-tight 
-              "
-            />
-            <button class="bg-[#e0eee7] px-2 ml-auto rounded-md border-2 border-grey-100  whitespace-nowrap text-xs font-normal text-[#3f755a] leading-normal tracking-tight ">
-              Sign up free
-            </button>
-          </div>
-        </form>
+
+ <form class="w-full mr-auto max-w-[460px]" id="form">
+                        <div class="flex border-grey-400 border bg-grey-100 w-full rounded-md">
+                        <span class="my-auto ml-2">
+                        ${emailIcon()}
+                        </span>
+                        <input
+                        id="email"
+                        type="email"
+                          disabled
+                                placeholder="Your email..."
+                                name="email"
+                                class="hover:cursor-not-allowed outline-none bg-grey-100 py-2 px-2 rounded-l-md w-full
+                                text-sm font-normal text-secondary leading-normal tracking-tight
+                                placeholder:text-sm placeholder:font-normal placeholder:text-secondary placeholder:leading-normal placeholder:tracking-tight 
+                                "
+                            />
+                            <button type="submit" disabled name="email" class="hover:cursor-not-allowed bg-[#e0eee7] px-2 ml-auto rounded-md border-2 border-grey-100  whitespace-nowrap text-xs font-normal text-[#3f755a] leading-normal tracking-tight ">
+                                Sign up free
+                            </button>
+                        </div>
+                    </form></div
   </div>
 
     <div class="p-4 max-w-[460px] mx-auto flex items-center justify-center flex-col  border-grey-400 mt-0">
@@ -128,3 +138,5 @@ Privacy is a fundamental human right, we've introduced a free plan to ensure tha
 
   </div>
   ${renderCards()}`;
+
+form();
