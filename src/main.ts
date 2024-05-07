@@ -79,18 +79,20 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           </div>
           <div class="flex border-grey-400 border bg-grey-100 w-full rounded-md mt-4 p-2">
                <ul class="w-full p-2 flex flex-col gap-1 justify-start items-start">
-               <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase opacity-30">${renderCheckmark(
-                 "#3f755a"
-               )} mzkm48bdmyec@shrouded.app</li>
-               <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase opacity-60">${renderCheckmark(
-                 "#3f755a"
-               )}GiovanniDiLorenzo@shrouded.app</li>
-               <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase opacity-90">${renderCheckmark(
-                 "#3f755a"
-               )}er3sjJrD2Vmz@shrouded.app</li>
-               <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase">${renderCheckmark(
-                 "#3f755a"
-               )}your-new-alias@shrouded.app</li></ul>     
+                              <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase">${renderCheckmark(
+                                "#3f755a"
+                              )}your-new-alias@shrouded.app</li>
+                              <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase opacity-90">${renderCheckmark(
+                                "#3f755a"
+                              )}er3sjJrD2Vmz@shrouded.app</li>
+                              <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase opacity-60">${renderCheckmark(
+                                "#3f755a"
+                              )}GiovanniDiLorenzo@shrouded.app</li>
+                              <li class="text-sm font-normal text-secondary leading-normal tracking-tight text-left flex gap-2 items-center mr-auto lowercase opacity-30">${renderCheckmark(
+                                "#3f755a"
+                              )} mzkm48bdmyec@shrouded.app</li>
+
+               </ul>     
           </div>
         </div>
 
