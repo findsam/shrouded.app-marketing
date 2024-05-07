@@ -5,7 +5,7 @@ import emailIcon from "./components/email.ts";
 import form from "./components/form.ts";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-<span class="bg-[#f2e2df] leading-normal tracking-tight flex items-start justify-start absolute top-0 w-full text-[#bd6455] text-sm px-4 py-1.5">
+<span class="bg-[#f2e2df] z-100 leading-normal tracking-tight flex items-start justify-start absolute top-0 w-full text-[#bd6455] text-sm px-4 py-1.5">
     <p class="max-w-[460px] w-full mx-auto">
     Early-access account creation is currently disabled at this moment.
     </p>
