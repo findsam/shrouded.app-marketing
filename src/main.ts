@@ -117,9 +117,9 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           </div>
           <div class="flex flex-col gap-2 border-grey-400 border bg-grey-100 w-full rounded-md mt-4 p-4">
                 <p class="text-sm font-normal text-secondary leading-normal tracking-tight text-left mx-auto">
-        Any email forwarded through your aliases will be directly sent to your inbox. We do not retain any details of your emails under any circumstances.
+        Any email forwarded through your aliases will be directly sent to your inbox. We do not retain any details of your emails under any circumstances 
           <a href="https://notion.so" class="bg-grey-400 hover:cursor-pointer mr-auto rounded-md border-grey-100  whitespace-nowrap text-xs font-normal text-secondary  px-1.5 py-0.5 leading-normal tracking-tight">
-              Read our privacy memo!
+              Read our privacy promise
             </a>
           </p>
           </div>
