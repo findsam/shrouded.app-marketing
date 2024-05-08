@@ -1,10 +1,18 @@
 export default function form() {
-  //   document
-  //     ?.getElementById("form")
-  //     ?.addEventListener("submit", function (event) {
-  //       event.preventDefault();
-  //       const { value } = document.getElementById("email") as HTMLInputElement;
-  //       window.location.href =
-  //         "https://dashboard.shrouded.app/auth/signup?email=" + value;
-  //     });
+  const form = document?.getElementById("form");
+
+  if (!form) return;
+
+  form?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const err = document?.getElementById?.("error");
+    err?.classList.remove("opacity-0");
+    err?.classList.remove("-translate-y-1");
+    (form as HTMLFormElement).reset();
+    let timeout = setTimeout(() => {
+      err?.classList.add("opacity-0");
+      err?.classList.add("-translate-y-1");
+    }, 4000);
+    return () => clearTimeout(timeout);
+  });
 }
