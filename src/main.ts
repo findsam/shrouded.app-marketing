@@ -26,7 +26,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
                         id="email"
                         type="email"
                           
-                                placeholder="Your email..."
+                                placeholder="Enter your email..."
                                 name="email"
                                 class="outline-none bg-grey-100 py-2 px-2 rounded-l-md w-full
                                 text-sm font-normal text-secondary leading-normal tracking-tight
@@ -54,7 +54,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         
         <div class="grid w-full mt-6">
           <div class="flex flex-row gap-4 w-full">
-           <span class="bg-[#f2e2df] min-h-10 max-h-10 max-w-10 min-w-10  justify-center items-center flex text-center px-2 mr py-1.5 font-frank text-2xl leading-tight tracking-tight mr-auto rounded-md whitespace-nowrap font-normal text-[#bd6455]">
+           <span class="bg-[#f2e2df] min-h-10 max-h-10 max-w-10 min-w-10  justify-center items-center flex text-center px-2 mr py-1.5 font-frank text-2xl leading-tight tracking-tight mr-auto rounded-md whitespace-nowrap font-normal text-[#bd6455] ">
               1
             </span>
           <div class="flex flex-col w-full">
@@ -68,7 +68,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
           </span>
           <input
           disabled
-          placeholder="Your email..."
+          placeholder="Enter your email..."
           class="outline-none bg-grey-100 py-2 px-2 rounded-md w-full
           text-sm font-normal text-secondary leading-normal tracking-tight
           placeholder:text-sm placeholder:font-normal placeholder:text-secondary placeholder:leading-normal placeholder:tracking-tight 
