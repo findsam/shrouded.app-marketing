@@ -11,7 +11,7 @@ export function renderCards() {
       "Free",
       [
         "Destination control",
-        "Create 2 saliases",
+        "Create 2 aliases",
         "Single sign-on",
         "Email support",
       ]

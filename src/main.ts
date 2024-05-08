@@ -37,7 +37,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
                                 Sign up free
                             </button>
                         </div>
-                      <span id="error" class="will-change-transform duration-300 opacity-0 absolute -bottom-[1.55rem] -translate-y-1 left-0.5 text-xs font-normal text-[#bd6455] leading-normal tracking-tight text-left mx-auto">Sign-up is currently disabled until further notice.</span>
+                      <span id="error" class="will-change-transform duration-300 opacity-0 absolute -bottom-[1.55rem] -translate-y-1 left-0.5 text-xs font-normal text-[#bd6455] leading-normal tracking-tight text-left mx-auto">Sign up is currently disabled until further notice.</span>
 
                     </form>
                     </div
